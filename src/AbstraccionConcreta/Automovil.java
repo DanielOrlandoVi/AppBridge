@@ -1,7 +1,11 @@
+package AbstraccionConcreta;
+
+import Abstraccion.Vehiculo;
+import Implementacion.TipoCombustible;
 import javax.swing.JOptionPane;
 
 // Abstracción refinada: Extiende la abstracción y proporciona implementaciones específicas de los vehículos.
-class Automovil extends Vehiculo {
+public class Automovil extends Vehiculo {
     public Automovil(TipoCombustible tipoCombustible) {
         super(tipoCombustible);
     }

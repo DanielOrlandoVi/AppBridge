@@ -1,4 +1,6 @@
+package Implementacion;
+
 // Implementador: Interfaz que define la implementación concreta.
-interface TipoCombustible {
+public interface TipoCombustible {
     void suministrarCombustible();
 }
